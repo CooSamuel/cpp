@@ -1,16 +1,11 @@
 #include<iostream>
+using namespace std;
 
-class complexClass
-{
-    double x;
-    double y;
-public:
-    void operator = (complexClass a);
-    complexClass operator + (complexClass a);
-    complexClass operator - (complexClass a);
-
-};
 int main(int argc, char const *argv[]) {
-    std::cout << "Hello world" << '\n';
+    enum Month{Jan=1,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec};
+    enum Month month;
+    month = Feb;
+    cout << month;
+    cout << 2;
     return 0;
 }
