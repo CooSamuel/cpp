@@ -4,6 +4,6 @@ project(cpp)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-    Assignment_3/Assignment_main.cpp)
+        Assignment_0301/Assignment0301_main.cpp)
 
 add_executable(cpp ${SOURCE_FILES})
