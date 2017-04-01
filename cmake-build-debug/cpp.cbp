@@ -82,13 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Samuel/Desktop/cpp/Assignment_3/Assignment0301_main.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/Users/Samuel/Desktop/cpp/Assignment_3/Assignment0302_main.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/Users/Samuel/Desktop/cpp/Assignment_3/Assignment0302_main.h">
+		<Unit filename="/Users/Samuel/Desktop/cpp/Assignment_0301/Assignment0301_main.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/Users/Samuel/Desktop/cpp/CMakeLists.txt">

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Samuel/Desktop/cpp
+CMAKE_SOURCE_DIR = /Users/Samuel/Desktop/cpp/Assignment_0302
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Samuel/Desktop/cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles /Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cpp
+# Target rules for targets named Assignment_0302
 
 # Build rule for target.
-cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cpp
-.PHONY : cpp
+Assignment_0302: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Assignment_0302
+.PHONY : Assignment_0302
 
 # fast build rule for target.
-cpp/fast:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
-.PHONY : cpp/fast
+Assignment_0302/fast:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/build
+.PHONY : Assignment_0302/fast
 
-Assignment_0301/Assignment0301_main.o: Assignment_0301/Assignment0301_main.cpp.o
+Assignment0302_main.o: Assignment0302_main.cpp.o
 
-.PHONY : Assignment_0301/Assignment0301_main.o
+.PHONY : Assignment0302_main.o
 
 # target to build an object file
-Assignment_0301/Assignment0301_main.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Assignment_0301/Assignment0301_main.cpp.o
-.PHONY : Assignment_0301/Assignment0301_main.cpp.o
+Assignment0302_main.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/Assignment0302_main.cpp.o
+.PHONY : Assignment0302_main.cpp.o
 
-Assignment_0301/Assignment0301_main.i: Assignment_0301/Assignment0301_main.cpp.i
+Assignment0302_main.i: Assignment0302_main.cpp.i
 
-.PHONY : Assignment_0301/Assignment0301_main.i
+.PHONY : Assignment0302_main.i
 
 # target to preprocess a source file
-Assignment_0301/Assignment0301_main.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Assignment_0301/Assignment0301_main.cpp.i
-.PHONY : Assignment_0301/Assignment0301_main.cpp.i
+Assignment0302_main.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/Assignment0302_main.cpp.i
+.PHONY : Assignment0302_main.cpp.i
 
-Assignment_0301/Assignment0301_main.s: Assignment_0301/Assignment0301_main.cpp.s
+Assignment0302_main.s: Assignment0302_main.cpp.s
 
-.PHONY : Assignment_0301/Assignment0301_main.s
+.PHONY : Assignment0302_main.s
 
 # target to generate assembly for a file
-Assignment_0301/Assignment0301_main.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/Assignment_0301/Assignment0301_main.cpp.s
-.PHONY : Assignment_0301/Assignment0301_main.cpp.s
+Assignment0302_main.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/Assignment0302_main.cpp.s
+.PHONY : Assignment0302_main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cpp"
-	@echo "... Assignment_0301/Assignment0301_main.o"
-	@echo "... Assignment_0301/Assignment0301_main.i"
-	@echo "... Assignment_0301/Assignment0301_main.s"
+	@echo "... Assignment_0302"
+	@echo "... Assignment0302_main.o"
+	@echo "... Assignment0302_main.i"
+	@echo "... Assignment0302_main.s"
 .PHONY : help
 
 

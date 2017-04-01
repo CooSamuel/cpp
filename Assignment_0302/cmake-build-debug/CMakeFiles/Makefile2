@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Samuel/Desktop/cpp
+CMAKE_SOURCE_DIR = /Users/Samuel/Desktop/cpp/Assignment_0302
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Samuel/Desktop/cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpp.dir
+# Target rules for target CMakeFiles/Assignment_0302.dir
 
 # All Build rule for target.
-CMakeFiles/cpp.dir/all:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/depend
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp"
-.PHONY : CMakeFiles/cpp.dir/all
+CMakeFiles/Assignment_0302.dir/all:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/depend
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Assignment_0302"
+.PHONY : CMakeFiles/Assignment_0302.dir/all
 
 # Include target in all.
-all: CMakeFiles/cpp.dir/all
+all: CMakeFiles/Assignment_0302.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/cpp.dir/rule
+CMakeFiles/Assignment_0302.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Assignment_0302.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Samuel/Desktop/cpp/Assignment_0302/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Assignment_0302.dir/rule
 
 # Convenience name for target.
-cpp: CMakeFiles/cpp.dir/rule
+Assignment_0302: CMakeFiles/Assignment_0302.dir/rule
 
-.PHONY : cpp
-
-# clean rule for target.
-CMakeFiles/cpp.dir/clean:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/clean
-.PHONY : CMakeFiles/cpp.dir/clean
+.PHONY : Assignment_0302
 
 # clean rule for target.
-clean: CMakeFiles/cpp.dir/clean
+CMakeFiles/Assignment_0302.dir/clean:
+	$(MAKE) -f CMakeFiles/Assignment_0302.dir/build.make CMakeFiles/Assignment_0302.dir/clean
+.PHONY : CMakeFiles/Assignment_0302.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Assignment_0302.dir/clean
 
 .PHONY : clean
 
